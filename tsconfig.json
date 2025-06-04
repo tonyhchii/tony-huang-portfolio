@@ -5,9 +5,9 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "baseUrl": "./src", // Set the base directory for your imports
+    "baseUrl": ".", // Set the base directory for your imports
     "paths": {
-      "@/*": ["*"] // Alias '@' to point to 'src' directory
+      "@/*": ["src/*"] // Alias '@' to point to 'src' directory
     }
   }
 }
